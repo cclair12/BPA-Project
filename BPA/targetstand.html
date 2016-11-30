@@ -15,30 +15,45 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cSpecial+Elite" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="_css/normalize.css">
   <link rel="stylesheet" href="_css/skeleton.css">
+  <link rel="stylesheet" href="_css/styles.css">
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-      <div class="row">
-        <div class="three columns">
-    <img src="_images/woodsmanslog_tp_v1.png" alt="woodsman's log logo">
-    </div>
-      <div class="six columns offset-by-two">
-    <nav>
-      <li><a href="http://inetstudent1.francistuttle.com/jp0184496/woodmanslog/index.html">Home</a></li>
-      <li><a href="#">Projects</a></li>
+<div class="container">
+  <section class="header">
+    <div class="row">
+      <div class="one-third column">
+  <img src="_images/woodsmanslog_official.png" alt="woodsman's log logo" width="276" height="172">
+  </div>
+</div><!--row-->
+<div class="row">
+  <div class="twelve columns">
+<nav>
+  <ul>
+    <ul class="topnav" id="myTopnav">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="hunting.html">Hunting</a></li>
+      <li><a href="fishing.html">Fishing</a></li>
+      <li><a href="camping.html">Camping</a></li>
       <li><a href="#">Subscribe</a></li>
       <li><a href="#">About Us</a></li>
-    </nav>
+      <li class="icon">
+        <a href="javascript:void(0);" onclick="myFunction()">&#9776;</a>
+      </li>
+    </ul>
+  </ul>
+  </nav>
   </div>
-    </div>
+</div><!--row-->
+</section><!--header-->
     <div class="row">
       <div class="ten columns offset-by-four">
         <h1>Bow Target Stand</h1>
@@ -54,7 +69,6 @@
       <li>Wood Screws</li>
     </ul>
 </div>
-<div id="categories">
 <div class="row">
     <div class="six columns offset-by-two">
       <h2>What you'll Do:</h2>
@@ -87,8 +101,14 @@
     <div class="six columns offset-by-two">
       <!--Add Fourth Step Image Here-->
     </div>
-</div>
-</div>
+</div><!--row-->
+<footer>
+<span>BPA Team Project</span><br>
+<span>Francis Tuttle Technology Center</span><br>
+<span>Do-It-Yourself Website</span>
+</footer>
+</div><!--container-->
+<script src="_js/script.js"></script>
 
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
