@@ -11,8 +11,8 @@ Table of Contents
 6. Media Queries (mobile and tablet styles)
 
 Color Palette:
-#
-#
+#43604d (dark green nav color)
+#eea339 (orange link and hover color)
 #
 #
 #
@@ -63,7 +63,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #998d6d;
+    background-color: #43604d;
 }
 
 /* Float the list items side by side */
@@ -84,7 +84,7 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-  background-color: #ffa550;
+  background-color: #eea339;
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
@@ -143,7 +143,8 @@ color: #fff;
 	margin: 1.2em auto;
 }
 #categories{
-  background: #2ccc95;
+  background: url(../_images/712_3492853copy.jpg) no-repeat;
+  background-size: cover;
 }
 #categories h3{
   text-align: center;
