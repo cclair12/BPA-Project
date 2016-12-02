@@ -392,36 +392,8 @@ hr {
   display: table;
   clear: both; }
 
-html{
-  background: #998D6D;
-}
-body{
-  color: #fff;
-}
 
-/* Custom CSS */
 
-nav li{
-  display: inline;
-  margin-right: 1.2em;
-}
-nav li a{
-  background: #2CCC95;
-  border-radius: .8em;
-  color: #000;
-  padding: .8em;
-}
-#banner{
-  background: url(../_images/wm.jpg) no-repeat;
-  background-size: cover;
-  height: 500px;
-}
-h2,p{
-  color: #000;
-}
-#banner p{
-  color: #fff;
-}
 
 
 
