@@ -37,6 +37,9 @@ h1{
 .container{
   max-width: 1140px;
 }
+.fluid{
+  max-width: 100%;
+}
 /* For devices larger than 400px */
 @media (min-width: 400px) {
   .container {
@@ -45,7 +48,6 @@ h1{
 }
 .header{
 background: #fff;
-height: 180px;
 }
 footer{
   background: #000;
@@ -56,9 +58,6 @@ footer{
 /*========================
 2. Nav Styles
 =========================*/
-.fluid{
-  max-width: 100%;
-}
 ul.topnav {
     list-style-type: none;
     margin: 0;
@@ -69,7 +68,7 @@ ul.topnav {
 
 /* Float the list items side by side */
 ul.topnav li {
-  float: left;
+  display: inline;
 }
 
 /* Style the links inside the list items */
@@ -92,6 +91,13 @@ ul.topnav li a:hover {
 ul.topnav li.icon {
   display: none;
 }
+.menu-icon{
+  background: #fff;
+  display: block;
+  width: 22px;
+  height: 4px;
+  margin-top: 4px;
+}
 @media screen and (max-width:680px) {
   ul.topnav li:not(:first-child) {
     display: none;
@@ -109,7 +115,6 @@ ul.topnav li.icon {
     top: 0;
   }
   ul.topnav.responsive li {
-    float: none;
     display: inline;
   }
   ul.topnav.responsive li a {
