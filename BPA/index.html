@@ -15,56 +15,78 @@
 
   <!-- FONT
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <link href="//fonts.googleapis.com/css?family=Raleway:400,300,600" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans%7cSpecial+Elite" rel="stylesheet">
 
   <!-- CSS
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="_css/normalize.css">
   <link rel="stylesheet" href="_css/skeleton.css">
+  <link rel="stylesheet" href="_css/styles.css">
 </head>
 <body>
 
   <!-- Primary Page Layout
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-  <div class="container">
-    <div id="banner">
+  <div class="container fluid">
+    <section class="header">
       <div class="row">
-        <div class="three columns">
-    <img src="_images/woodsmanslog_tp_v1.png" alt="woodsman's log logo">
+        <div class="twelve columns">
+    <img src="_images/wl_logo.gif" alt="woodsman's log logo" width="276" height="172">
     </div>
-      <div class="six columns offset-by-two">
-    <nav>
-      <li><a href="http://inetstudent1.francistuttle.com/jp0184496/woodmanslog/index.html">Home</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="http://inetstudent1.francistuttle.com/jp0184496/woodmanslog/subscribe.html">Subscribe</a></li>
-      <li><a href="http://inetstudent1.francistuttle.com/jp0184496/woodmanslog/aboutus.html">About Us</a></li>
-    </nav>
-  </div>
-    </div>
-    <div class="row">
-      <div class="six columns offset-by-three">
-        <h1>Welcome to the Woodsman's Log!</h1>
-        <p>We are your #1 source for DIY outdoor projects, advice, and information. Whether you are an avid outdoorsman or looking to pick up a new skill, look no further!</p>
-      </div>
-      </div>
-</div>
-<div id="categories">
+  </div><!--row-->
   <div class="row">
-    <div class="three columns offset-by-one">
-      <h2>Hunting</h2>
-      <p>This is the hunting category with hunting projects</p>
+    <div class="twelve columns">
+  <nav>
+      <ul class="topnav" id="myTopnav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="hunting.html">Hunting</a></li>
+        <li><a href="fishing.html">Fishing</a></li>
+        <li><a href="camping.html">Camping</a></li>
+        <li><a href="subscribe.html">Subscribe</a></li>
+        <li><a href="aboutus.html">About Us</a></li>
+        <li class="icon">
+          <a href="javascript:void(0);" onclick="myFunction()">
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+            <span class="menu-icon"></span>
+          </a>
+        </li>
+    </ul>
+    </nav>
+    </div>
+  </div><!--row-->
+  </section><!--header-->
+    <div id="banner">
+    <div class="row">
+      <div class="twelve columns">
+<h1>get out and create.</h1>
+      </div>
+    </div><!--row-->
+  </div><!--banner-->
+<section id="categories">
+  <div class="row">
+    <div class="one-third column cat-icon">
+      <img src="_images/hunting_icon.gif" alt="hunting icon">
+      <h3>Hunting</h3>
   </div>
-  <div class="three columns offset-by-one">
-    <h2>Fishing</h2>
-    <p>This is the fishing category with fishing projects</p>
+  <div class="one-third column cat-icon">
+    <img src="_images/fishing_icon.gif" alt="fishing icon">
+    <h3>Fishing</h3>
 </div>
-<div class="three columns offset-by-one">
-  <h2>Camping</h2>
-  <p>This is the camping category with camping projects</p>
+<div class="one-third column cat-icon">
+  <img src="_images/camping_icon.gif" alt="camping icon">
+  <h3>Camping</h3>
 </div>
-</div>
-</div>
+</div><!--row-->
+</section><!--categories-->
+</div><!--container-->
+<footer>
+<span>BPA Team Project</span><br>
+<span>Francis Tuttle Technology Center</span><br>
+<span>Do-It-Yourself Website</span>
+</footer>
 
+<script src="_js/script.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
 </body>
