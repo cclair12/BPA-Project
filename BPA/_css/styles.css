@@ -1,0 +1,181 @@
+
+/*===================================================
+=====================================================
+Developer: Casey Clair
+Table of Contents
+1. Global Styles
+2. Nav Styles
+3. Link Styles
+4. Page Specific Styles
+5. Fonts
+6. Media Queries (mobile and tablet styles)
+
+Color Palette:
+#43604d (dark green nav color)
+#eea339 (orange link and hover color)
+#
+#
+#
+=====================================================
+====================================================*/
+
+
+
+
+
+/*========================
+1. Global Styles
+=========================*/
+
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+h1{
+  font-family: 'Special Elite', cursive;
+}
+.container{
+  max-width: 1140px;
+}
+.fluid{
+  max-width: 100%;
+}
+/* For devices larger than 400px */
+@media (min-width: 400px) {
+  .container {
+    width: 100%;
+    padding: 0; }
+}
+.header{
+background: #fff;
+}
+footer{
+  background: #000;
+  color: #fff;
+  height: 100px;
+}
+
+/*========================
+2. Nav Styles
+=========================*/
+ul.topnav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #43604d;
+}
+
+/* Float the list items side by side */
+ul.topnav li {
+  display: inline;
+}
+
+/* Style the links inside the list items */
+ul.topnav li a {
+    display: inline-block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of links on hover */
+ul.topnav li a:hover {
+  background-color: #eea339;
+}
+
+/* Hide the list item that contains the link that should open and close the topnav on small screens */
+ul.topnav li.icon {
+  display: none;
+}
+.menu-icon{
+  background: #fff;
+  display: block;
+  width: 22px;
+  height: 4px;
+  margin-top: 4px;
+}
+@media screen and (max-width:680px) {
+  ul.topnav li:not(:first-child) {
+    display: none;
+  }
+  ul.topnav li.icon {
+    float: right;
+    display: inline-block;
+  }
+  ul.topnav.responsive {
+    position: relative;
+  }
+  ul.topnav.responsive li.icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  ul.topnav.responsive li {
+    display: inline;
+  }
+  ul.topnav.responsive li a {
+    display: block;
+    text-align: left;
+  }
+}
+
+/*========================
+3. Link Styles
+=========================*/
+
+/*========================
+4. Page specific styles
+=========================*/
+
+#banner{
+background: url(../_images/home_banner.jpg) no-repeat;
+background-size: cover;
+background-position: center;
+height: 500px;
+}
+#banner h1{
+color: #fff;
+}
+.cat-icon img{
+	width:200px;
+	height:200px;
+	display:block;
+	border-radius:100px;
+	margin: 1.2em auto;
+}
+#categories{
+  background: url(../_images/woodgrain.jpg) no-repeat;
+  background-size: cover;
+}
+#categories h3{
+  text-align: center;
+}
+
+/*========================
+5. Fonts
+=========================*/
+
+/*========================
+6. Media Queries
+=========================*/
+
+/*mobile styles*/
+
+@media only screen and (max-width:480px) {
+
+
+
+
+
+@media only screen and (min-width: 481px) and (max-width: 861px) {
+
+
+
+
+/*tablet styles*/
+
+@media only screen and (min-width:861px) {
