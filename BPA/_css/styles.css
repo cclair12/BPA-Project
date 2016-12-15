@@ -173,7 +173,7 @@ a{
 }
 #categories a:hover{
   color: #eea339;
-  text-decoration: underline;
+  text-decoration: none;
 }
 .shift:hover{
   position: relative;
