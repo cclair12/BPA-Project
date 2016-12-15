@@ -30,8 +30,13 @@ Color Palette:
 body{
   background: #fec;
   font-family: 'Open Sans', sans-serif;
+  display: flex;
+  flex-flow: column;
+  min-height: 100vh;
 }
-
+main {
+  flex: 1;
+}
 h1{
   font-family: 'Special Elite', cursive;
 }
@@ -73,7 +78,7 @@ footer{
   border-top: 4px solid #eea339;
   color: #fff;
   height: 100px;
-  padding: .8em;
+  padding: .8em, 0, .8em, 0;
   position: relative;
   text-align: center;
   width: 100%;
