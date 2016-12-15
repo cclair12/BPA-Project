@@ -13,8 +13,8 @@ Table of Contents
 Color Palette:
 #43604d (dark green, nav color)
 #eea339 (orange, link and hover color)
-#
-#
+#333 (dark grey, footer color)
+#fec (tan, background color)
 #
 =====================================================
 ====================================================*/
@@ -28,13 +28,20 @@ Color Palette:
 =========================*/
 
 body{
+  background: #fec;
   font-family: 'Open Sans', sans-serif;
 }
 
 h1{
   font-family: 'Special Elite', cursive;
 }
+.page-header{
+  border-bottom: 2px solid #333;
+  margin-top: 1.4em;
+  text-align: center;
+}
 .container{
+  background: #fec;
   max-width: 1140px;
 }
 .fluid{
@@ -46,20 +53,46 @@ h1{
     width: 100%;
     padding: 0; }
 }
+
+/* mobile container */
+@media only screen and (max-width:480px) {
+  .container {
+    width: 100%;
+    padding: 0; }
+}
 .header{
 background: #fff;
 }
+.responsive-img{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
 footer{
-  background: #000;
+  background: #333;
+  border-top: 4px solid #eea339;
   color: #fff;
   height: 100px;
+  padding: .8em;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+ul.materials{
+  list-style-type: none;
+}
+input.mats{
+  margin-right: 5px;
+}
+.mats:checked+span{
+  text-decoration: line-through;
 }
 
 /*========================
 2. Nav Styles
 =========================*/
-
 ul.topnav {
+    border-bottom: 2px outset rgba(0,0,0,0.75);
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -75,7 +108,7 @@ ul.topnav li {
 /* Style the links inside the list items */
 ul.topnav li a {
     display: inline-block;
-    color: #f2f2f2;
+    color: #fff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -127,6 +160,36 @@ ul.topnav li.icon {
 /*========================
 3. Link Styles
 =========================*/
+a{
+  text-decoration: none;
+}
+#categories a{
+  color: #fff;
+}
+#categories a:hover{
+  color: #eea339;
+  text-decoration: underline;
+}
+.shift:hover{
+  position: relative;
+  top: -10px;
+}
+.project-wrapper{
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0;
+  color: #000;
+  display: block;
+  padding: 1.2em;
+  margin: 2em;
+}
+.project-wrapper:hover{
+  background: #ededed;
+  color: #eea339;
+  text-decoration: none;
+}
+
+
 
 /*========================
 4. Page specific styles
@@ -140,13 +203,15 @@ height: 500px;
 }
 #banner h1{
 color: #fff;
+margin: 1.2em 0 0 1.2em;
 }
 .cat-icon img{
-	width:200px;
-	height:200px;
-	display:block;
 	border-radius:100px;
+  box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
+  display:block;
+	height:200px;
 	margin: 1.2em auto;
+  width:200px;
 }
 #categories{
   background: url(../_images/woodgrain.jpg) no-repeat;
