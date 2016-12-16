@@ -190,16 +190,28 @@ a{
   box-shadow: 0 0 6px 0;
   color: #000;
   display: block;
-  padding: 1.2em;
+  padding: 1.4em;
   margin: 2em;
+}
+.project-wrapper h2{
+  font-size: 2em;
+  text-align: center;
+}
+@media only screen and (max-width:480px){
+  .project-wrapper h2{
+    font-size: 1.4em;
+  }
+}
+@media only screen and (min-width: 481px) and (max-width: 861px) {
+  .project-wrapper h2{
+    font-size: 1.6em;
+}
 }
 .project-wrapper:hover{
   background: #ededed;
   color: #eea339;
   text-decoration: none;
 }
-
-
 
 /*========================
 4. Page specific styles
