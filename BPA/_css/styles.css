@@ -243,7 +243,7 @@ background-size: cover;
 background-position: center;
 height: 500px;
 }
-#banner h1{
+#banner h1{ 
 color: #fff;
 margin: 1.2em 0 0 1.2em;
 }
@@ -265,13 +265,21 @@ margin: 1.2em 0 0 1.2em;
   background: url(../_images/woodgrain.jpg) no-repeat;
   background-size: cover;
 }
-@media only screen and (min-width:607px){
+@media only screen and (min-width:607px) and (max-width: 2400px){
   #categories{
       height: 400px;
     }
     .cat-icon{
         margin-top: 1.8em;
         } 
+}
+@media only screen and (min-width: 2401px) and (max-width: 2600px){
+  #categories{
+      height: 510px;
+    }
+    .cat-icon{
+        margin-top: 5em;
+}
 }
 #categories h3{
   text-align: center;
