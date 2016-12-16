@@ -65,21 +65,29 @@
       <div class="ten columns offset-by-four">
         <h1>Stay In Touch!</h1>
       </div>
-    </div>
+    </div><!--row-->
         <p>Your opinion matters to us. Have something to say? Want to add a suggestion to a project, or just stay up to date on the latest tricks for your favorites? Sign up today!</p>
-     <form>
-      <input type="text" placeholder="First Name"><br>
-
-      <input type="text" placeholder="Last Name"><br>
-
-      <input type="email" placeholder="Email Address"><br>
-  <textarea placeholder="What is on your mind?"></textarea>
+        <div class="row">
+          <div class="two-thirds column">
+        <div class="form-wrapper">
+     <form method="post">
+       <label for="firstName">First Name</label>
+      <input id="firstName" type="text" placeholder="First Name"><br>
+      <label for="lastName">Last Name</label>
+      <input id="lastName" type="text" placeholder="Last Name"><br>
+<label for="email">Email</label>
+      <input id="email" type="email" placeholder="Email Address"><br>
+      <label for="comments">Comments</label>
+  <textarea id="comments" placeholder="What is on your mind?"></textarea>
   <label class="example-send-yourself-copy">
     <input type="checkbox">
     <span class="label-body">I acknowledge and agree to the Terms and Conditions</span><br>
   </label>
   <input type="submit" value="Sign Up">
 </form>
+</div><!--form container-->
+</div>
+</div><!--row-->
 </div><!--container-->
 </main>  <!--(quinn)-->
 <footer>

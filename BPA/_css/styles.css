@@ -7,7 +7,7 @@ Table of Contents
 2. Nav Styles
 3. Link Styles
 4. Page Specific Styles
-5. Fonts
+5. Form Styles
 6. Media Queries (mobile and tablet styles)
 
 Color Palette:
@@ -238,6 +238,12 @@ margin: 1.2em 0 0 1.2em;
 	margin: 1.2em auto;
   width:200px;
 }
+@media only screen and (min-width: 481px) and (max-width: 605px) {
+  .one-third.column{
+    margin: 0 auto;
+    width: 92%;
+  }
+}
 #categories{
   background: url(../_images/woodgrain.jpg) no-repeat;
   background-size: cover;
@@ -247,8 +253,31 @@ margin: 1.2em 0 0 1.2em;
 }
 
 /*========================
-5. Fonts
+5. Form styles
 =========================*/
+
+.form-wrapper{
+background: #fff;
+border-radius: 5px;
+box-shadow: 0 0 6px 0;
+color: #000;
+display: block;
+padding: 1.4em;
+margin: 2em;
+}
+input[type="email"]:focus,input[type="text"]:focus,textarea:focus,select:focus {
+  border: 1px solid #43604D;
+}
+input[type="submit"]{
+  background: #43604d;
+  border: none;
+  color: #fff;
+}
+input[type="submit"]:hover{
+  background: #eea339;
+  color: #fff;
+}
+
 
 /*========================
 6. Media Queries
