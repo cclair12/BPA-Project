@@ -8,7 +8,6 @@ Table of Contents
 3. Link Styles
 4. Page Specific Styles
 5. Form Styles
-6. Media Queries (mobile and tablet styles)
 
 Color Palette:
 #43604d (dark green, nav color)
@@ -72,6 +71,22 @@ background: #fff;
   display: block;
   max-width: 100%;
   height: auto;
+}
+.img-thumbnail {
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-radius: 4px;
+  padding: 4px;
+}
+.responsive-steps{
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+@media only screen and (max-width:480px) {
+  .responsive-steps{
+    max-width: 90%;
+  }
 }
 footer{
   background: #333;
@@ -178,7 +193,7 @@ a{
 .shift{
   position: relative;
   top: 0;
-  -webkit-transition: all .65s ease;
+  transition: all .65s ease;
 }
 .shift:hover{
   position: relative;
@@ -277,25 +292,3 @@ input[type="submit"]:hover{
   background: #eea339;
   color: #fff;
 }
-
-
-/*========================
-6. Media Queries
-=========================*/
-
-/*mobile styles*/
-
-@media only screen and (max-width:480px) {
-
-
-
-
-
-@media only screen and (min-width: 481px) and (max-width: 861px) {
-
-
-
-
-/*tablet styles*/
-
-@media only screen and (min-width:861px) {
