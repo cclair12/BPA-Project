@@ -28,6 +28,7 @@ Color Palette:
 
 body{
   background: #fec;
+  background: url(../_images/concrete_seamless.gif);
   font-family: 'Open Sans', sans-serif;
   display: flex;
   flex-flow: column;
@@ -46,6 +47,7 @@ h1{
 }
 .container{
   background: #fec;
+  background: url(../_images/concrete_seamless.gif);
   max-width: 1140px;
 }
 .fluid{
