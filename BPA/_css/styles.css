@@ -265,6 +265,14 @@ margin: 1.2em 0 0 1.2em;
   background: url(../_images/woodgrain.jpg) no-repeat;
   background-size: cover;
 }
+@media only screen and (min-width:607px){
+  #categories{
+      height: 400px;
+    }
+    .cat-icon{
+        margin-top: 1.8em;
+        } 
+}
 #categories h3{
   text-align: center;
 }
