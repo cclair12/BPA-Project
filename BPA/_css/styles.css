@@ -11,6 +11,7 @@ Table of Contents
 
 Color Palette:
 #43604d (dark green, nav color)
+#26332a (darker green in nav gradient)
 #eea339 (orange, link and hover color)
 #333 (dark grey, footer color)
 #fec (tan, background color)
@@ -120,7 +121,7 @@ ul.topnav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #43604d;
+    background: linear-gradient(#43604d 0%, #26332a 100%);
 }
 
 /* Float the list items side by side */
@@ -141,7 +142,7 @@ ul.topnav li a {
 
 /* Change background color of links on hover */
 ul.topnav li a:hover {
-  background-color: #eea339;
+  background: linear-gradient(#eea339 0%, #c47d19 100%);
 }
 
 /* Hide the list item that contains the link that should open and close the topnav on small screens */
