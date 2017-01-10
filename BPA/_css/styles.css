@@ -264,8 +264,14 @@ margin: 1.2em 0 0 1.2em;
   }
 }
 #categories{
-  background: url(../_images/woodgrain.jpg) no-repeat;
+  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
   background-size: cover;
+}
+@media only screen and (max-width:750px){
+  #categories{
+    background: url(../_images/woodgrain_mobile.jpg) no-repeat;
+    background-size: cover;
+  }
 }
 @media only screen and (min-width:607px) and (max-width: 2400px){
   #categories{
