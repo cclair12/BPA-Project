@@ -66,12 +66,14 @@ h1{
     padding: 0; }
 }
 .header{
-  background: #fff;
+  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
   border-bottom: 4px solid #eea339;
 }
 .logo{
+  background: #fff;
+  border-radius: 5px;
   display: block;
-  margin-left: 3em;
+  margin: 0 auto 2em auto;
 }
 .responsive-img{
   display: block;
@@ -120,10 +122,11 @@ ul.topnav {
     border-bottom: 2px outset rgba(0,0,0,0.75);
     border-radius: 5px;
     list-style-type: none;
-    margin: 0 1em -2em 1em;
+    margin: 0 auto -2em auto;
     position: relative;
     padding-left: 2em;
     background: linear-gradient(#43604d 0%, #26332a 100%);
+    width: 700px;
     z-index: 999;
 }
 
@@ -162,6 +165,8 @@ ul.topnav li.icon {
 @media screen and (max-width:680px) {
   ul.topnav{
     margin: 0;
+    padding: 0;
+    width: 100%;
   }
   ul.topnav li:not(:first-child) {
     display: none;
