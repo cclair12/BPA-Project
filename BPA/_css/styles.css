@@ -32,9 +32,6 @@ body{
   background: #fec;
   background: url(../_images/concrete_seamless.gif);
   font-family: 'Open Sans', sans-serif;
-  display: flex;
-  flex-flow: column;
-  min-height: 100vh;
 }
 main {
   flex: 1;
@@ -103,7 +100,6 @@ footer{
   color: #fff;
   height: 100px;
   padding: .8em 0 .8em 0;
-  position: relative;
   text-align: center;
   width: 100%;
 }
@@ -272,6 +268,12 @@ margin: 1.2em 0 0 1.2em;
     margin: 0 auto;
     width: 92%;
   }
+}
+.preview{
+  padding-bottom: 210px;
+}
+.contact-form{
+  padding-bottom: 90px;
 }
 #categories{
   background: url(../_images/woodgrain_desktop.jpg) no-repeat;
