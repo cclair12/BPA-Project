@@ -73,7 +73,7 @@ h1{
   background: #fff;
   border-radius: 5px;
   display: block;
-  margin: 0 auto 2em auto;
+  margin: 2em auto 2em auto;
 }
 .responsive-img{
   display: block;
@@ -119,7 +119,6 @@ input.mats{
 2. Nav Styles
 =========================*/
 ul.topnav {
-    border-bottom: 2px outset rgba(0,0,0,0.75);
     border-radius: 5px;
     list-style-type: none;
     margin: 0 auto -2em auto;
@@ -142,7 +141,6 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
     font-size: 1.2em;
 }
 
@@ -196,23 +194,21 @@ ul.topnav li.icon {
 3. Link Styles
 =========================*/
 a{
-  text-decoration: none;
-}
-#categories a{
   color: #fff;
-}
-#categories a:hover{
-  color: #eea339;
   text-decoration: none;
 }
-.shift{
-  position: relative;
-  top: 0;
-  transition: all .65s ease;
+a:hover{
+  color: #000;
 }
-.shift:hover{
-  position: relative;
-  top: -10px;
+.cat-icon{
+  display: block;
+}
+.cat-icon:hover{
+background: #eea339;
+border-radius: 5px;
+box-shadow: 0 0 6px 0 #000;
+color: #000;
+transition: .5s;
 }
 .project-wrapper{
   background: #fff;
@@ -244,6 +240,7 @@ a{
   background: #ededed;
   color: #eea339;
   text-decoration: none;
+  transition: .5s;
 }
 
 /*========================
@@ -260,7 +257,7 @@ height: 500px;
 color: #fff;
 margin: 1.2em 0 0 1.2em;
 }
-.cat-icon img{
+.circle-img{
 	border-radius:100px;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
   display:block;
@@ -281,14 +278,11 @@ margin: 1.2em 0 0 1.2em;
   padding-bottom: 90px;
 }
 #categories{
-  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
-  background-size: cover;
+  /*background: url(../_images/woodgrain_desktop.jpg) no-repeat;
+  background-size: cover;*/
+  background: #314538;
+  color: #fff;
 }
-@media only screen and (max-width:750px){
-  #categories{
-    background: url(../_images/woodgrain_mobile.jpg) no-repeat;
-    background-size: cover;
-  }
 }
 @media only screen and (min-width:607px) and (max-width: 2400px){
   #categories{
