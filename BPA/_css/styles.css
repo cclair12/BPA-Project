@@ -44,6 +44,21 @@ h1{
   margin-top: 1.4em;
   text-align: center;
 }
+.materials h2{
+  color: #43604d;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.eight.columns h2{
+  color: #43604d;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+span.steps{
+  color: #eea339;
+  font-size: 1.4em;
+}
 .container{
   background: #fec;
   background: url(../_images/concrete_seamless.gif);
@@ -93,6 +108,7 @@ h1{
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 2em;
 }
 @media only screen and (max-width:480px) {
   .responsive-steps{
@@ -284,7 +300,6 @@ margin: 1.2em 0 0 1.2em;
   /*background: #314538;*/
   background: linear-gradient(#43604d 0%, #26332a 100%);
   color: #fff;
-}
 }
 @media only screen and (min-width:607px) and (max-width: 2400px){
   #categories{
