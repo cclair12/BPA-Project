@@ -221,6 +221,7 @@ a:hover{
 }
 .cat-icon{
   display: block;
+  border-radius: 5px;
 }
 .cat-icon:hover{
 background: linear-gradient(#eea339 0%, #c47d19 100%);
@@ -300,14 +301,6 @@ margin: 1.2em 0 0 1.2em;
   /*background: #314538;*/
   background: linear-gradient(#43604d 0%, #26332a 100%);
   color: #fff;
-}
-@media only screen and (min-width:607px) and (max-width: 2400px){
-  #categories{
-      height: 400px;
-    }
-    .cat-icon{
-        margin-top: 1.8em;
-        }
 }
 @media only screen and (min-width: 2401px) and (max-width: 2600px){
   #banner{
