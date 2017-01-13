@@ -32,9 +32,6 @@ body{
   background: #fec;
   background: url(../_images/concrete_seamless.gif);
   font-family: 'Open Sans', sans-serif;
-  display: flex;
-  flex-flow: column;
-  min-height: 100vh;
 }
 main {
   flex: 1;
@@ -46,6 +43,21 @@ h1{
   border-bottom: 2px solid #333;
   margin-top: 1.4em;
   text-align: center;
+}
+.materials h2{
+  color: #43604d;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+.eight.columns h2{
+  color: #43604d;
+  font-size: 1.6em;
+  font-weight: bold;
+  margin-top: 2em;
+}
+span.steps{
+  color: #eea339;
+  font-size: 1.4em;
 }
 .container{
   background: #fec;
@@ -69,7 +81,17 @@ h1{
     padding: 0; }
 }
 .header{
-background: #fff;
+  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
+  background-size: cover;
+  border-bottom: 4px solid #eea339;
+}
+.logo{
+  background: #ededed;
+  border-radius: 5px;
+  box-shadow: 0 0 6px 0;
+  display: block;
+  margin: 2em auto 2em auto;
+  padding-bottom: 1em;
 }
 .responsive-img{
   display: block;
@@ -86,6 +108,7 @@ background: #fff;
   display: block;
   max-width: 100%;
   height: auto;
+  margin-bottom: 2em;
 }
 @media only screen and (max-width:480px) {
   .responsive-steps{
@@ -98,7 +121,6 @@ footer{
   color: #fff;
   height: 100px;
   padding: .8em 0 .8em 0;
-  position: relative;
   text-align: center;
   width: 100%;
 }
@@ -116,12 +138,14 @@ input.mats{
 2. Nav Styles
 =========================*/
 ul.topnav {
-    border-bottom: 2px outset rgba(0,0,0,0.75);
+    border-radius: 5px;
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
+    margin: 0 auto -2em auto;
+    position: relative;
+    padding-left: 75px;
     background: linear-gradient(#43604d 0%, #26332a 100%);
+    width: 700px;
+    z-index: 999;
 }
 
 /* Float the list items side by side */
@@ -136,8 +160,7 @@ ul.topnav li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    transition: 0.3s;
-    font-size: 17px;
+    font-size: 1.2em;
 }
 
 /* Change background color of links on hover */
@@ -157,6 +180,11 @@ ul.topnav li.icon {
   margin-top: 4px;
 }
 @media screen and (max-width:680px) {
+  ul.topnav{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
   ul.topnav li:not(:first-child) {
     display: none;
   }
@@ -178,30 +206,29 @@ ul.topnav li.icon {
   ul.topnav.responsive li a {
     display: block;
     text-align: left;
-  }
+}
 }
 
 /*========================
 3. Link Styles
 =========================*/
 a{
-  text-decoration: none;
-}
-#categories a{
   color: #fff;
-}
-#categories a:hover{
-  color: #eea339;
   text-decoration: none;
 }
-.shift{
-  position: relative;
-  top: 0;
-  transition: all .65s ease;
+a:hover{
+  color: #000;
 }
-.shift:hover{
-  position: relative;
-  top: -10px;
+.cat-icon{
+  display: block;
+  border-radius: 5px;
+}
+.cat-icon:hover{
+background: linear-gradient(#eea339 0%, #c47d19 100%);
+border-radius: 5px;
+box-shadow: 0 0 6px 0 #000;
+color: #000;
+transition: .5s;
 }
 .project-wrapper{
   background: #fff;
@@ -233,6 +260,7 @@ a{
   background: #ededed;
   color: #eea339;
   text-decoration: none;
+  transition: .5s;
 }
 
 /*========================
@@ -243,13 +271,13 @@ a{
 background: url(../_images/home_banner.jpg) no-repeat;
 background-size: cover;
 background-position: center;
-height: 500px;
+height: 550px;
 }
 #banner h1{
 color: #fff;
 margin: 1.2em 0 0 1.2em;
 }
-.cat-icon img{
+.circle-img{
 	border-radius:100px;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
   display:block;
@@ -263,31 +291,21 @@ margin: 1.2em 0 0 1.2em;
     width: 92%;
   }
 }
+.preview{
+  padding-bottom: 210px;
+}
+.contact-form{
+  padding-bottom: 90px;
+}
 #categories{
-  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
-  background-size: cover;
-}
-@media only screen and (max-width:750px){
-  #categories{
-    background: url(../_images/woodgrain_mobile.jpg) no-repeat;
-    background-size: cover;
-  }
-}
-@media only screen and (min-width:607px) and (max-width: 2400px){
-  #categories{
-      height: 400px;
-    }
-    .cat-icon{
-        margin-top: 1.8em;
-        }
+  /*background: #314538;*/
+  background: linear-gradient(#43604d 0%, #26332a 100%);
+  color: #fff;
 }
 @media only screen and (min-width: 2401px) and (max-width: 2600px){
-  #categories{
-      height: 510px;
+  #banner{
+      height: 650px;
     }
-    .cat-icon{
-        margin-top: 5em;
-}
 }
 #categories h3{
   text-align: center;
