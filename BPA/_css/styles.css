@@ -85,6 +85,12 @@ span.steps{
   background-size: cover;
   border-bottom: 4px solid #eea339;
 }
+@media only screen and (max-width:480px){
+  .header{
+    background: url(../_images/woodgrain_mobile.jpg) no-repeat;
+  }
+
+}
 .logo{
   background: #ededed;
   border-radius: 5px;
@@ -119,7 +125,7 @@ footer{
   background: #333;
   border-top: 4px solid #eea339;
   color: #fff;
-  height: 100px;
+  height: 150px;
   padding: .8em 0 .8em 0;
   text-align: center;
   width: 100%;
@@ -223,6 +229,12 @@ a:hover{
   display: block;
   border-radius: 5px;
 }
+@media only screen and (min-width: 475px) and (max-width: 605px){
+ .cat-icon{
+   width: 100%;
+}
+}
+
 .cat-icon:hover{
 background: linear-gradient(#eea339 0%, #c47d19 100%);
 border-radius: 5px;
@@ -285,10 +297,10 @@ margin: 1.2em 0 0 1.2em;
 	margin: 1.2em auto;
   width:200px;
 }
-@media only screen and (min-width: 481px) and (max-width: 605px) {
+@media only screen and (min-width: 475px) and (max-width: 605px) {
   .one-third.column{
     margin: 0 auto;
-    width: 92%;
+    width: 100%;
   }
 }
 .preview{
@@ -298,7 +310,7 @@ margin: 1.2em 0 0 1.2em;
   padding-bottom: 90px;
 }
 #categories{
-  /*background: #314538;*/
+  background: #314538;
   background: linear-gradient(#43604d 0%, #26332a 100%);
   color: #fff;
 }
