@@ -67,7 +67,7 @@ span.steps{
 .fluid{
   max-width: 100%;
 }
-/* For devices larger than 400px */
+/* Container for devices larger than 400px */
 @media (min-width: 400px) {
   .container {
     width: 100%;
@@ -85,6 +85,7 @@ span.steps{
   background-size: cover;
   border-bottom: 4px solid #eea339;
 }
+/* Woodgrain background for mobile */
 @media only screen and (max-width:480px){
   .header{
     background: url(../_images/woodgrain_mobile.jpg) no-repeat;
@@ -116,6 +117,7 @@ span.steps{
   height: auto;
   margin-bottom: 2em;
 }
+/* responsive-steps images for mobile */ 
 @media only screen and (max-width:480px) {
   .responsive-steps{
     max-width: 90%;
@@ -188,6 +190,7 @@ ul.topnav li.icon {
   height: 4px;
   margin-top: 4px;
 }
+/* responsive navigation for mobile */
 @media screen and (max-width:680px) {
   ul.topnav{
     margin: 0;
@@ -240,6 +243,7 @@ a:hover{
   display: block;
   border-radius: 5px;
 }
+/* cat-icon for tablet */
 @media only screen and (min-width: 475px) and (max-width: 605px){
  .cat-icon{
    width: 100%;
@@ -269,11 +273,13 @@ transition: .5s;
 .project-wrapper p{
   text-align: center;
 }
+/* project-wrapper mobile */
 @media only screen and (max-width:480px){
   .project-wrapper h2{
     font-size: 1.4em;
   }
 }
+/* project-wrapper tablet */
 @media only screen and (min-width: 481px) and (max-width: 861px) {
   .project-wrapper h2{
     font-size: 1.6em;
@@ -308,6 +314,7 @@ margin: 1.2em 0 0 1.2em;
 	margin: 1.2em auto;
   width:200px;
 }
+/* One-third columns for tablet viewport */
 @media only screen and (min-width: 475px) and (max-width: 605px) {
   .one-third.column{
     margin: 0 auto;
@@ -325,6 +332,7 @@ margin: 1.2em 0 0 1.2em;
   background: linear-gradient(#43604d 0%, #26332a 100%);
   color: #fff;
 }
+/* Banner section for very large viewport */
 @media only screen and (min-width: 2401px) and (max-width: 2600px){
   #banner{
       height: 650px;
