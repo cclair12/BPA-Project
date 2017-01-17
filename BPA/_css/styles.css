@@ -139,6 +139,9 @@ input.mats{
 .mats:checked+span{
   text-decoration: line-through;
 }
+.back-to{
+  margin-bottom: 5em;
+}
 
 /*========================
 2. Nav Styles
@@ -224,6 +227,14 @@ a{
 }
 a:hover{
   color: #000;
+}
+.back-to a{
+  color: #43604d;
+  font-size: 1.4em;
+  font-weight: bold;
+}
+.back-to a:hover{
+  color: #eea339;
 }
 .cat-icon{
   display: block;
