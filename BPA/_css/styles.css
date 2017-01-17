@@ -54,6 +54,16 @@ h1{
   font-size: 1.6em;
   font-weight: bold;
   margin-top: 2em;
+  padding-left: .7em;
+}
+.eight.columns p{
+  padding: 1em;
+}
+.six.columns h2{
+  text-align: center;
+}
+.six.columns p{
+  padding: 1em;
 }
 span.steps{
   color: #eea339;
@@ -131,6 +141,9 @@ footer{
   padding: .8em 0 .8em 0;
   text-align: center;
   width: 100%;
+}
+.materials{
+  padding: 1em;
 }
 .materials span{
   font-size: 1.2em;
