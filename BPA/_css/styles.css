@@ -117,7 +117,7 @@ span.steps{
   height: auto;
   margin-bottom: 2em;
 }
-/* responsive-steps images for mobile */ 
+/* responsive-steps images for mobile */
 @media only screen and (max-width:480px) {
   .responsive-steps{
     max-width: 90%;
@@ -132,8 +132,8 @@ footer{
   text-align: center;
   width: 100%;
 }
-ul.materials{
-  list-style-type: none;
+.materials span{
+  font-size: 1.2em;
 }
 input.mats{
   margin-right: 5px;
@@ -143,6 +143,9 @@ input.mats{
 }
 .back-to{
   margin-bottom: 5em;
+}
+.tip{
+  color: #e84933;
 }
 
 /*========================
