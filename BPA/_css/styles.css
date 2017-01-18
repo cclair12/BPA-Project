@@ -286,9 +286,6 @@ transition: .5s;
   font-size: 2em;
   text-align: center;
 }
-.project-wrapper p{
-  text-align: center;
-}
 /* project-wrapper mobile */
 @media only screen and (max-width:480px){
   .project-wrapper h2{
@@ -342,6 +339,9 @@ margin: 1.2em 0 0 1.2em;
 }
 .contact-form{
   padding-bottom: 90px;
+}
+.contact-form p{
+  padding: 1em;
 }
 #categories{
   background: #314538;
