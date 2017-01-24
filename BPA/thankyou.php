@@ -22,7 +22,7 @@
   <div class="container fluid">
     <?php require './_includes/header.php'; ?>
   </div>
-    <div class="container preview">
+    <div class="container white-space">
       <div class="row">
         <div class="twelve columns">
         <h1 class="confirm">Thank You!</h1>

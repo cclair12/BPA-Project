@@ -4,14 +4,14 @@ $missing = [];
 // check if the form has been submitted
 if (isset($_POST['send'])) {
   // email processing script
-  $to = 'caseyclair12@gmail.com'; // use email created for website
+  $to = 'osu93@yahoo.com'; // use email created for website
   $subject = 'User Comments from Contact Form';
   // expected fields
   $expected = ['firstName', 'lastName', 'email', 'comments' ];
   // set required fields
   $required = ['firstName', 'lastName', 'comments'];
   // create additional headers
-  $headers = "From Woodsman's Log<caseyclair12@gmail.com>\r\n";
+  $headers = "From Woodsman's Log<osu93@yahoo.com>\r\n";
   $headers .= 'Content-Type: text/plain; charset=utf-8';
   require './_includes/processmail.php';
   if ($mailSent) {
