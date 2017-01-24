@@ -142,6 +142,18 @@ span.steps{
     max-width: 90%;
   }
 }
+/* responsive-steps images for mobile */
+@media only screen and (max-width:1165px) {
+  .responsive-steps{
+    margin-left: 1em;
+  }
+}
+/* img-thumbnail images for mobile */
+@media only screen and (max-width:1165px) {
+  .img-thumbnail{
+    margin-left: 1em;
+  }
+}
 footer{
   background: #333;
   border-top: 4px solid #eea339;
