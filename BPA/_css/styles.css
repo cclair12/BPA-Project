@@ -1,7 +1,7 @@
 
 /*===================================================
 =====================================================
-Developer: Casey Clair
+Developers: Casey Clair, Quinton Haley
 Table of Contents
 1. Global Styles
 2. Nav Styles
@@ -13,6 +13,7 @@ Color Palette:
 #43604d (dark green, nav color)
 #26332a (darker green in nav gradient)
 #eea339 (orange, link and hover color)
+#c47d19 (darker orange in nav gradient)
 #333 (dark grey, footer color)
 #fec (tan, background color)
 
@@ -39,8 +40,16 @@ main {
 h1{
   font-family: 'Special Elite', cursive;
 }
+h1+p{
+  font-size: 1.2em;
+  padding: 1em;
+}
 .page-header{
   border-bottom: 2px solid #333;
+  margin-top: 1.4em;
+  text-align: center;
+}
+.confirm{
   margin-top: 1.4em;
   text-align: center;
 }
@@ -70,8 +79,8 @@ span.steps{
   font-size: 1.4em;
 }
 .container{
-  background: #fec;
-  background: url(../_images/concrete_seamless.gif);
+  background: inherit;
+  /*background: url(../_images/concrete_seamless.gif);*/
   max-width: 1140px;
 }
 .fluid{
@@ -160,6 +169,16 @@ input.mats{
 .tip{
   color: #e84933;
 }
+.sr-only{
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  padding: 0;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  border: 0;
+}
 
 /*========================
 2. Nav Styles
@@ -235,6 +254,19 @@ ul.topnav li.icon {
     display: block;
     text-align: left;
 }
+button{
+display: inline-block;
+height: 55px;
+padding: 0 20px 5px 20px;
+text-align: center;
+background-color: transparent;
+border-radius: 5px;
+border: none;
+
+ }
+ button:hover{
+  border: none;
+ }
 }
 
 /*========================
@@ -245,6 +277,12 @@ a{
   text-decoration: none;
 }
 a:hover{
+  color: #000;
+}
+a#current{
+  color: #eea339;
+}
+a>.logo{
   color: #000;
 }
 .back-to a{

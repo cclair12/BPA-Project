@@ -5,10 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Woodsman's Log</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <title>Woodsman's Log | Home</title>
+  
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,34 +25,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header><!--(quinn)-->
   <div class="container fluid">
-    <section class="header">
-      <div class="row">
-        <div class="twelve columns">
-         <img class="logo" src="_images/wl_logo.svg" alt="woodsman's log logo" width="320" height="200">
-    </div>
-  </div><!--row-->
-  <div class="row">
-    <div class="twelve columns">
-  <nav>
-      <ul class="topnav" id="myTopnav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="hunting.html">Hunting</a></li>
-        <li><a href="fishing.html">Fishing</a></li>
-        <li><a href="camping.html">Camping</a></li>
-        <li><a href="subscribe.html">Subscribe</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li class="icon">
-          <a href="#" onclick="myFunction()">
-            <span class="menu-icon"></span>
-            <span class="menu-icon"></span>
-            <span class="menu-icon"></span>
-          </a>
-        </li>
-    </ul>
-    </nav>
-    </div>
-  </div><!--row-->
-  </section><!--header-->
+  <?php include './_includes/header.php'; ?>
   </div> <!--container(quinn)-->
   </header> <!--(quinn)-->
   <main> <!--(quinn)-->
@@ -68,15 +39,15 @@
   </div><!--banner-->
 <section id="categories">
   <div class="row">
-    <a href="hunting.html" class="one-third column cat-icon">
+    <a href="hunting.php" class="one-third column cat-icon">
       <img class="circle-img" src="_images/hunting_icon.gif" alt="hunting icon">
       <h3>Hunting</h3>
   </a>
-  <a href="fishing.html" class="one-third column cat-icon">
+  <a href="fishing.php" class="one-third column cat-icon">
     <img class="circle-img" src="_images/fishing_icon.gif" alt="fishing icon">
     <h3>Fishing</h3>
 </a>
-<a href="camping.html" class="one-third column cat-icon">
+<a href="camping.php" class="one-third column cat-icon">
   <img class="circle-img" src="_images/camping_icon.gif" alt="camping icon">
   <h3>Camping</h3>
 </a>
@@ -84,14 +55,7 @@
 </section><!--categories-->
 </div><!--container-->
 </main>
-<footer>
-<span>BPA Information</span><br>
-<span>Chapter 03-0042</span><br>
-<span>Theme: Do-It-Yourself</span><br>
-<span>School: Francis Tuttle Technology Center</span><br>
-<span>City: Oklahoma City, OK</span><br>
-<span>Year: 2017</span>
-</footer>
+ <?php include './_includes/footer.php'; ?>
 <script src="_js/script.js"></script>
 <!-- End Document
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

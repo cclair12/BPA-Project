@@ -5,10 +5,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Woodsman's Log</title>
-  <meta name="description" content="">
-  <meta name="author" content="">
-
+  <title>Camping Projects</title>
+  
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,34 +25,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <header><!--(quinn)-->
   <div class="container fluid">
-    <section class="header">
-      <div class="row">
-        <div class="twelve columns">
-         <img class="logo" src="_images/wl_logo.svg" alt="woodsman's log logo" width="320" height="200">
-    </div>
-  </div><!--row-->
-  <div class="row">
-    <div class="twelve columns">
-  <nav>
-      <ul class="topnav" id="myTopnav">
-        <li><a href="index.html">Home</a></li>
-        <li><a href="hunting.html">Hunting</a></li>
-        <li><a href="fishing.html">Fishing</a></li>
-        <li><a href="camping.html">Camping</a></li>
-        <li><a href="subscribe.html">Subscribe</a></li>
-        <li><a href="aboutus.html">About Us</a></li>
-        <li class="icon">
-          <a href="#" onclick="myFunction()">
-            <span class="menu-icon"></span>
-            <span class="menu-icon"></span>
-            <span class="menu-icon"></span>
-          </a>
-        </li>
-    </ul>
-    </nav>
-    </div>
-  </div><!--row-->
-  </section><!--header-->
+     <?php require './_includes/header.php'; ?>
 </div><!--container fluid-->
 </header> <!--(quinn)-->
 <main> <!--(quinn)-->
@@ -66,14 +37,14 @@
      </div>
   <div class="row">
     <div class="six columns">
-      <a href="washingstation.html" class="project-wrapper">
+      <a href="washingstation.php" class="project-wrapper">
       <h2>Hand Washing Station</h2>
       <p>Keep yourself and your camp kitchen clean with this portable solution</p>
       <!-- Add Image here for Washing Station--><img src="_images/washing_station/ws_step3.gif" alt="Washing Station Final Product" class="responsive-img">
       </a>
 </div>
 <div class="six columns"><!--add border(quinn)-->
-  <a href="firewoodsling.html" class="project-wrapper">
+  <a href="firewoodsling.php" class="project-wrapper">
   <h2>Firewood Sling</h2>
   <p>Gather and carry firewood quickly and easily</p>
   <!--Add Image here for Firewood Sling--><img src="_images/firewood_sling/fs_materials.png" alt="Firewood Sling Materials" class="responsive-img">
@@ -82,14 +53,7 @@
 </div><!--row-->
 </div><!--container-->
 </main> <!--(quinn)-->
-<footer>
-<span>BPA Information</span><br>
-<span>Chapter 03-0042</span><br>
-<span>Theme: Do-It-Yourself</span><br>
-<span>School: Francis Tuttle Technology Center</span><br>
-<span>City: Oklahoma City, OK</span><br>
-<span>Year: 2017</span>
-</footer>
+<?php include './_includes/footer.php'; ?>
 <script src="_js/script.js"></script>
 
 <!-- End Document
