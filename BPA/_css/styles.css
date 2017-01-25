@@ -68,12 +68,6 @@ h1+p{
 .eight.columns p{
   padding: 1em;
 }
-.six.columns h2{
-  text-align: center;
-}
-.six.columns p{
-  padding: 1em;
-}
 span.steps{
   color: #eea339;
   font-size: 1.4em;
@@ -237,7 +231,7 @@ ul.topnav li.icon {
   margin-top: 4px;
 }
 /* responsive navigation for mobile */
-@media screen and (max-width:680px) {
+@media screen and (max-width: 775px) {
   ul.topnav{
     margin: 0;
     padding: 0;
@@ -409,23 +403,37 @@ margin: 1.2em 0 0 1.2em;
 #categories h3{
   text-align: center;
 }
-.six.columns img{
+.six.columns{
   margin-bottom: 2em;
 }
-@media only screen and (max-width: 480px){
-  .six.columns img{
-    margin: 2em auto;
-  }
+.six.columns img{
+  display: block;
+  margin: 0 auto;
 }
-@media only screen and (min-width: 550px) and (max-width: 965px){
+.six.columns h2{
+  text-align: center;
+}
+@media only screen and (max-width: 504px){
   .six.columns{
     width: 95%;
   }
-  .six.columns img{
-    margin: 2em auto;
+  .six.columns p{
+  padding-left: 5%;
+  }
+}
+@media only screen and (min-width: 505px) and (max-width: 965px){
+  .six.columns{
+    margin-left: 0;
+    margin-right: 0;
+    width: 95%;
   }
   .six.columns p{
-    padding: 0 5%;
+   padding-left: 5%;
+  }
+}
+@media only screen and (min-width: 966px) and (max-width: 2600px){
+.six.columns p{
+  padding: 1.5em;
   }
 }
 
