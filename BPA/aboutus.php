@@ -36,7 +36,7 @@
     </div>
 <div class="row">
   <div class="six columns">
-    <!--Add Casey Clair Image Here--> <img class="img-thumbnail" src="_images/CClair.jpg" alt="Casey Clair">
+    <!--Add Casey Clair Image Here--> <img class="responsive-img img-thumbnail" src="_images/CClair.jpg" alt="Casey Clair">
   </div>
     <div class="six columns">
       <h2>Casey Clair</h2>
@@ -45,7 +45,7 @@
   </div><!--row-->
     <div class="row">
       <div class="six columns">
-        <!--Add Jared Pisano Image Here--><img class="img-thumbnail" src="_images/JPisano.jpg" alt="Jared Pisano">
+        <!--Add Jared Pisano Image Here--><img class="responsive-img img-thumbnail" src="_images/JPisano.jpg" alt="Jared Pisano">
       </div>
     <div class="six columns">
       <h2>Jared Pisano</h2>
@@ -54,7 +54,7 @@
   </div><!--row-->
     <div class="row">
       <div class="six columns">
-        <!--Add Josh Eaton Image here--><img class="img-thumbnail" src="_images/JEaton.jpg" alt="Jared Pisano">
+        <!--Add Josh Eaton Image here--><img class="responsive-img img-thumbnail" src="_images/JEaton.jpg" alt="Jared Pisano">
       </div>
     <div class="six columns">
       <h2>Josh Eaton</h2>
@@ -63,7 +63,7 @@
   </div><!--row-->
     <div class="row">
       <div class="six columns">
-        <!--Add Quinton Haley Image here--><img class="img-thumbnail" src="_images/QHaley.jpg" alt="Quinton Haley">
+        <!--Add Quinton Haley Image here--><img class="responsive-img img-thumbnail" src="_images/QHaley.jpg" alt="Quinton Haley">
       </div>
     <div class="six columns">
       <h2>Quinton Haley</h2>
