@@ -46,7 +46,7 @@ h1+p{
 }
 .page-header{
   border-bottom: 2px solid #333;
-  margin-top: 1.4em;
+  margin: 2em auto;
   text-align: center;
 }
 .confirm{
@@ -80,7 +80,6 @@ span.steps{
 }
 .container{
   background: inherit;
-  /*background: url(../_images/concrete_seamless.gif);*/
   max-width: 1140px;
 }
 .fluid{
@@ -138,7 +137,7 @@ span.steps{
 }
 /* responsive-steps images for mobile */
 @media only screen and (max-width:480px) {
-  .responsive-steps{
+  .responsive-steps,.responsive-img{
     max-width: 90%;
   }
 }
@@ -409,6 +408,25 @@ margin: 1.2em 0 0 1.2em;
 }
 #categories h3{
   text-align: center;
+}
+.six.columns img{
+  margin-bottom: 2em;
+}
+@media only screen and (max-width: 480px){
+  .six.columns img{
+    margin: 2em auto;
+  }
+}
+@media only screen and (min-width: 550px) and (max-width: 965px){
+  .six.columns{
+    width: 95%;
+  }
+  .six.columns img{
+    margin: 2em auto;
+  }
+  .six.columns p{
+    padding: 0 5%;
+  }
 }
 
 /*========================
