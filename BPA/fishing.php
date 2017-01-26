@@ -1,3 +1,4 @@
+<?php include './_includes/title.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Fishing Projects</title>
+    <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,7 +38,7 @@
 </div>
   <div class="row">
      <div class="six columns">
-       <a href="minnowtrap.php" class="project-wrapper">
+       <a href="minnow_trap.php" class="project-wrapper">
       <h2>Minnow Trap</h2>
       <p>Use household materials to catch bait the next time you're on the dock!</p>
       <!-- Add Image here for Homemade Minnow Trap--><img src="_images/minnow_trap/mt_step6.png" alt="Minnow Trap Final Product" class="responsive-img">

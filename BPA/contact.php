@@ -14,6 +14,7 @@ if (isset($_POST['send'])) {
   $headers = "From Woodsman's Log<osu93@yahoo.com>\r\n";
   $headers .= 'Content-Type: text/plain; charset=utf-8';
   require './_includes/processmail.php';
+  include './_includes/title.php';
   if ($mailSent) {
     header('Location: http://www.ftclass.com/bpaps/thankyou.php');
     exit;
@@ -27,7 +28,7 @@ if (isset($_POST['send'])) {
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Contact</title>
+    <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->

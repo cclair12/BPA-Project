@@ -14,7 +14,7 @@
         <li><a href="fishing.php" <?php if ($currentPage == 'fishing.php') { echo 'id="current"';} ?>>Fishing</a></li>
         <li><a href="camping.php" <?php if ($currentPage == 'camping.php') { echo 'id="current"';} ?>>Camping</a></li>
         <li><a href="contact.php" <?php if ($currentPage == 'contact.php') { echo 'id="current"';} ?>>Contact</a></li>
-        <li><a href="aboutus.php" <?php if ($currentPage == 'aboutus.php') { echo 'id="current"';} ?>>About Us</a></li>
+        <li><a href="about_us.php" <?php if ($currentPage == 'about_us.php') { echo 'id="current"';} ?>>About Us</a></li>
         <li class="icon">
           <button href="#" onclick="myFunction()">
             <span class="sr-only">Toggle navigation</span>

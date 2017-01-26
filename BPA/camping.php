@@ -1,3 +1,4 @@
+<?php include './_includes/title.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Camping Projects</title>
-  
+    <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -37,14 +38,14 @@
      </div>
   <div class="row">
     <div class="six columns">
-      <a href="washingstation.php" class="project-wrapper">
+      <a href="washing_station.php" class="project-wrapper">
       <h2>Hand Washing Station</h2>
       <p>Keep yourself and your camp kitchen clean with this portable solution</p>
       <!-- Add Image here for Washing Station--><img src="_images/washing_station/ws_step3.gif" alt="Washing Station Final Product" class="responsive-img">
       </a>
 </div>
 <div class="six columns"><!--add border(quinn)-->
-  <a href="firewoodsling.php" class="project-wrapper">
+  <a href="firewood_sling.php" class="project-wrapper">
   <h2>Firewood Sling</h2>
   <p>Gather and carry firewood quickly and easily</p>
   <!--Add Image here for Firewood Sling--><img src="_images/firewood_sling/fs_materials.png" alt="Firewood Sling Materials" class="responsive-img">

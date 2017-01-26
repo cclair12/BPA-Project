@@ -1,3 +1,4 @@
+<?php include './_includes/title.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,8 +6,8 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Fishing Line Spooler</title>
-  
+    <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
+
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">

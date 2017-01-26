@@ -1,3 +1,4 @@
+<?php include './_includes/title.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,7 +6,7 @@
   <!-- Basic Page Needs
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
-  <title>Hunting Projects</title>
+    <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
 
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -37,14 +38,14 @@
 </div>
   <div class="row">
      <div class="six columns ">
-       <a href="coverscent.php" class="project-wrapper">
+       <a href="cover_scent.php" class="project-wrapper">
       <h2>Homemade Cover Scent</h2>
       <p>Create a cover scent using materials gathered from your favorite scouting location!</p>
       <!-- Add Image here for Homemade Cover Scent--><img src="_images/cover_scent/cs_step1.png" alt="Cover Scent Product" class="responsive-img">
       </a>
   </div>
      <div class="six columns">
-       <a href="targetstand.php" class="project-wrapper">
+       <a href="target_stand.php" class="project-wrapper">
   <h2>Bow Target Stand</h2>
   <p>This simple stand will elevate your bow target, helping you keep your skills sharp and sight in your bow before your next trip.</p>
   <!--Add Image here for Bow Target Stand--><img src="_images/archery_stand/ts_step5.gif" alt="Target Stand Final Product" class="responsive-img"><!--image hangs off the screen at 1140px. it may need to by resized to fit (quinn)-->
