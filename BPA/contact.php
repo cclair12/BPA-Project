@@ -1,6 +1,7 @@
 <?php
 $errors = [];
 $missing = [];
+include './_includes/title.php';
 // check if the form has been submitted
 if (isset($_POST['send'])) {
   // email processing script
@@ -14,7 +15,6 @@ if (isset($_POST['send'])) {
   $headers = "From Woodsman's Log<osu93@yahoo.com>\r\n";
   $headers .= 'Content-Type: text/plain; charset=utf-8';
   require './_includes/processmail.php';
-  include './_includes/title.php';
   if ($mailSent) {
     header('Location: http://www.ftclass.com/bpaps/thankyou.php');
     exit;
