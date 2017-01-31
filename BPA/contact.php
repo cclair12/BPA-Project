@@ -29,7 +29,7 @@ if (isset($_POST['send'])) {
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta charset="utf-8">
     <title>Woodsman's Log<?php if (isset($title)) {echo "&#8212;{$title}";} ?></title>
-
+    <link rel="icon" href="_images/favicon.png">
   <!-- Mobile Specific Metas
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
