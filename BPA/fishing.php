@@ -47,7 +47,7 @@
       <div class="six columns">
         <a href="spooler.php" class="project-wrapper">
   <h2>Fishing Line Spooler</h2>
-  <p>Spool up your favorite reel in a snap</p>
+  <p>Spool up your favorite reel in a snap!</p>
   <!--Add Image here for Fishing Line Spooler--><img src="_images/fishing_spool/fs_step5.gif" alt="Fishing Spool Final Product" class="responsive-img">
   </a>
 </div>

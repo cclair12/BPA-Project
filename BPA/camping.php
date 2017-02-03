@@ -40,14 +40,14 @@
     <div class="six columns">
       <a href="washing_station.php" class="project-wrapper">
       <h2>Hand Washing Station</h2>
-      <p>Keep yourself and your camp kitchen clean with this portable solution</p>
+      <p>Keep yourself and your camp kitchen clean with this portable solution!</p>
       <!-- Add Image here for Washing Station--><img src="_images/washing_station/ws_step3.gif" alt="Washing Station Final Product" class="responsive-img">
       </a>
 </div>
 <div class="six columns"><!--add border(quinn)-->
   <a href="firewood_sling.php" class="project-wrapper">
   <h2>Firewood Sling</h2>
-  <p>Gather and carry firewood quickly and easily</p>
+  <p>Gather and carry firewood quickly and easily!</p>
   <!--Add Image here for Firewood Sling--><img src="_images/firewood_sling/fs_materials.png" alt="Firewood Sling Materials" class="responsive-img">
   </a>
 </div>

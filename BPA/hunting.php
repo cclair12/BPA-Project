@@ -47,7 +47,7 @@
      <div class="six columns">
        <a href="target_stand.php" class="project-wrapper">
   <h2>Bow Target Stand</h2>
-  <p>This simple stand will elevate your bow target, helping you keep your skills sharp and sight in your bow before your next trip.</p>
+  <p>This simple stand will elevate your bow target, helping you keep your skills sharp and sight in your bow before your next trip!</p>
   <!--Add Image here for Bow Target Stand--><img src="_images/archery_stand/ts_step5.gif" alt="Target Stand Final Product" class="responsive-img"><!--image hangs off the screen at 1140px. it may need to by resized to fit (quinn)-->
   </a>
 </div>
