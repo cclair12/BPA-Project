@@ -50,7 +50,7 @@ h1+p{
   text-align: center;
 }
 .confirm{
-  margin-top: 1.4em;
+  margin-top: 2em;
   text-align: center;
 }
 .materials h2{
@@ -362,6 +362,9 @@ height: 550px;
 color: #fff;
 margin: 1.2em 0 0 1.2em;
 }
+h1.confirm+p{
+  text-align: center;
+}
 .circle-img{
 	border-radius:100px;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
@@ -381,7 +384,7 @@ margin: 1.2em 0 0 1.2em;
   padding-bottom: 210px;
 }
 .white-space{
-  padding-bottom: 500px;
+  padding-bottom: 550px;
 }
 .contact-form{
   padding-bottom: 90px;
