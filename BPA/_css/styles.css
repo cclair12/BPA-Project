@@ -386,6 +386,12 @@ h1.confirm+p{
 .white-space{
   padding-bottom: 550px;
 }
+/* Very large viewport padding for thank you page */
+@media only screen and (min-width: 2401px) and (max-width: 2600px){
+  .white-space{
+    padding-bottom: 650px;
+  }
+}
 .contact-form{
   padding-bottom: 90px;
 }
