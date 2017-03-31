@@ -40,6 +40,20 @@ main {
 h1{
   font-family: 'Special Elite', cursive;
 }
+@keyframes typing {
+  from { width: 0 }
+}
+@keyframes caret {
+  50% { border-right-color: transparent }
+}
+h1.typewriter{
+  overflow: hidden;
+  border-right: .05em solid;
+  white-space: nowrap;
+  width: 16ch;
+  animation: typing 1.5s steps(19),
+             blink-caret 1s steps(1);
+}
 h1+p{
   font-size: 1.2em;
   padding: 1em;
@@ -93,10 +107,11 @@ span.steps{
     padding: 0; }
 }
 .header{
-  background: url(../_images/woodgrain_desktop.jpg) no-repeat;
+   background: url(../_images/woodgrain_desktop.jpg) no-repeat;
   background-size: cover;
   border-bottom: 4px solid #eea339;
 }
+
 /* Woodgrain background for mobile */
 @media only screen and (max-width:480px){
   .header{
@@ -155,6 +170,9 @@ footer{
   padding: .8em 0 .8em 0;
   text-align: center;
   width: 100%;
+}
+footer p{
+  margin-bottom: 0;
 }
 .materials{
   padding: 1em;
@@ -290,13 +308,16 @@ a#current{
 a>.logo{
   color: #000;
 }
-.back-to a{
+.back-to a,p.project-idea a{
   color: #43604d;
-  font-size: 1.4em;
+  font-size: 1.7em;
   font-weight: bold;
 }
-.back-to a:hover{
+.back-to a:hover,.project-idea a:hover{
   color: #eea339;
+}
+p.project-idea{
+  text-align: center;
 }
 .cat-icon{
   display: block;
@@ -362,13 +383,18 @@ height: 550px;
 color: #fff;
 margin: 1.2em 0 0 1.2em;
 }
+@media only screen and (max-width:480px){
+  #banner h1{
+  font-size: 2.2em;
+  }
+}
 h1.confirm+p{
   text-align: center;
 }
 .circle-img{
 	border-radius:100px;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
-  display:block;
+  display: block;
 	height:200px;
 	margin: 1.2em auto;
   width:200px;

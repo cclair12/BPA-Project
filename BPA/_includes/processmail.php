@@ -29,7 +29,7 @@ foreach ($_POST as $key => $value) {
 	// if empty and required, add to $missing array
 	if (empty($temp) && in_array($key, $required)) {
 		$missing[] = $key;
-		${key} = '';
+		${$key} = '';
 	} elseif (in_array($key, $expected)) {
 		// otherwise, assign to a variable of the same as $key
 		${$key} = $temp;

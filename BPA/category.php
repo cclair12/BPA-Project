@@ -40,6 +40,11 @@ include './_includes/header.php';
   </div>
   <?php } ?>
 </div><!--row-->
+<div class="row">
+  <div class="twelve columns">
+    <p class="project-idea"><a href="send_project.php">Send us your project idea!</a></p>
+  </div>
+</div><!--row-->
 
 </div><!--container-->
 <?php include './_includes/footer.php'; ?>

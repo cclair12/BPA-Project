@@ -16,7 +16,7 @@ if (isset($_POST['send'])) {
   $headers .= 'Content-Type: text/plain; charset=utf-8';
   require './_includes/processmail.php';
   if ($mailSent) {
-    header('Location: http://www.ftclass.com/bpaps/thank_you.php');
+    header('Location: http://www.ftclass.com/bpaps/thank_you.php?id=1');
     exit;
   }
 }
