@@ -43,7 +43,6 @@
     </div>
   </div><!--row-->
 </div><!--container-->
-</main><!--(quinn)-->
 <?php include './_includes/footer.php'; ?>
 <script src="_js/script.js"></script>
 

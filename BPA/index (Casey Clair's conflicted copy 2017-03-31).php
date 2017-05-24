@@ -13,15 +13,15 @@
    <div class="row">
     <a href="category.php?cat_id=1" class="one-third column cat-icon">
       <img class="circle-img" src="_images/hunting_icon.gif" alt="hunting icon" onload="catIcon()">
-      <h3>Hunting</h3>
+      <h2>Hunting</h2>
   </a>
   <a href="category.php?cat_id=2" class="one-third column cat-icon">
-    <img class="circle-img" src="_images/fishing_icon.gif" alt="fishing icon" onload="catIcon()">
-    <h3>Fishing</h3>
+    <img class="circle-img" src="_images/fishing_icon.gif" alt="fishing icon">
+    <h2>Fishing</h2>
 </a>
 <a href="category.php?cat_id=3" class="one-third column cat-icon">
-  <img class="circle-img" src="_images/camping_icon.gif" alt="camping icon" onload="catIcon">
-  <h3>Camping</h3>
+  <img class="circle-img" src="_images/camping_icon.gif" alt="camping icon">
+  <h2>Camping</h2>
 </a>
 </div><!--row-->
 </section><!--categories-->

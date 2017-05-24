@@ -30,6 +30,7 @@ Color Palette:
 =========================*/
 
 body{
+  background: #fec;
   background: url(../_images/concrete_seamless.gif);
   font-family: 'Open Sans', sans-serif;
 }
@@ -94,21 +95,21 @@ span.steps{
 }
 /* Container for devices larger than 400px */
 @media (min-width: 400px) {
-  .container {
+.container {
     width: 100%;
     padding: 0; }
 }
 
 /* mobile container */
 @media only screen and (max-width:480px) {
-  .container {
-    width: 100%;
-    padding: 0; }
+.container {
+   width: 100%;
+   padding: 0; }
 }
 .header{
    background: url(../_images/woodgrain_desktop.jpg) no-repeat;
-  background-size: cover;
-  border-bottom: 4px solid #eea339;
+   background-size: cover;
+   border-bottom: 4px solid #eea339;
 }
 
 /* Woodgrain background for mobile */
@@ -132,8 +133,8 @@ span.steps{
   height: auto;
 }
 .img-thumbnail {
-  background-color: #ffffff;
-  border: 1px solid #dddddd;
+  background-color: #fff;
+  border: 1px solid #ddd;
   border-radius: 4px;
   padding: 4px;
 }
@@ -302,7 +303,7 @@ a:hover{
   color: #000;
 }
 a#current{
-    background: linear-gradient(#eea339 0%, #c47d19 100%);
+  background: linear-gradient(#eea339 0%, #c47d19 100%);
 }
 a>.logo{
   color: #000;
@@ -391,11 +392,11 @@ h1.confirm+p{
   text-align: center;
 }
 .circle-img{
-  border-radius:100px;
+	border-radius:100px;
   box-shadow: 2px 2px 2px 2px rgba(0,0,0,.5);
   display: block;
-  height:200px;
-  margin: 1.2em auto;
+	height:200px;
+	margin: 1.2em auto;
   width:200px;
 }
 /* One-third columns for tablet viewport */
@@ -434,7 +435,7 @@ h1.confirm+p{
       height: 650px;
     }
 }
-#categories h3{
+#categories h2{
   text-align: center;
 }
 .six.columns{
@@ -476,13 +477,13 @@ h1.confirm+p{
 =========================*/
 
 .form-wrapper{
-background: #fff;
-border-radius: 5px;
-box-shadow: 0 0 6px 0;
-color: #000;
-display: block;
-padding: 1.4em;
-margin: 2em;
+   background: #fff;
+   border-radius: 5px;
+   box-shadow: 0 0 6px 0;
+   color: #000;
+   display: block;
+   padding: 1.4em;
+   margin: 2em;
 }
 label{
 font-weight: normal;
@@ -498,4 +499,7 @@ input[type="submit"]{
 input[type="submit"]:hover{
   background: #eea339;
   color: #fff;
+}
+textarea{
+    width: 70%;
 }

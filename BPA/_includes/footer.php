@@ -1,8 +1,8 @@
 <footer>
-<span>BPA Information</span><br>
-<span>Chapter 03-0042</span><br>
-<span>Theme: Do-It-Yourself</span><br>
-<span>School: Francis Tuttle Technology Center</span><br>
-<span>City: Oklahoma City, OK</span><br>
-<span>Year: <?php echo date('Y'); ?></span><br>
+<p>BPA Information<br>
+Chapter 03-0042<br>
+Theme: Do-It-Yourself<br>
+School: Francis Tuttle Technology Center<br>
+City: Oklahoma City, OK<br>
+Year: <?php echo date('Y'); ?></p>
 </footer>

@@ -12,7 +12,7 @@ if (isset($_POST['send'])) {
   // set required fields
   $required = ['firstName', 'lastName', 'comments'];
   // create additional headers
-  $headers = "From Woodsman's Log<osu93@yahoo.com>\r\n";
+  $headers = "From Woodsman's Log<woodsmanslog@gmail.com>\r\n";
   $headers .= 'Content-Type: text/plain; charset=utf-8';
   require './_includes/processmail.php';
   if ($mailSent) {
@@ -38,7 +38,7 @@ if (isset($_POST['send'])) {
         <div class="row">
           <div class="eight columns offset-by-two">
         <div class="form-wrapper">
-     <form method="post" action="">
+     <form method="post">
        <label for="firstName">First Name <strong class="tip">&#42;</strong>
        <?php if ($missing && in_array('firstName', $missing)) { ?>
          <span class="tip">Please enter your first name.</span>

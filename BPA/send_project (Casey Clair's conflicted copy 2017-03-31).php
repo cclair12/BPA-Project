@@ -37,28 +37,28 @@ if (isset($_POST['send'])) {
 <div class="row">
   <div class="eight columns offset-by-two">
     <div class="form-wrapper">
-	<form method="post" name="submit_an_idea" enctype="multipart/form-data" action="">
+	<form method="post" name="submit_an_idea" enctype="multipart/form-data">
 		<label for="name">Name: <strong class="tip">&#42;</strong>
        <?php if ($missing && in_array('name', $missing)) { ?>
          <span class="tip">Please enter your name.</span>
          <?php } ?></label>
-		<input type="text" name="name" placeholder="Name">
+		<input type="text" name="name" id="name" placeholder="Name">
 		<label for="email">Email: <strong class="tip">&#42;</strong>
 			<?php if ($missing && in_array('email', $missing)) { ?>
           <span class="tip">Please enter your email address.</span>
           <?php } ?></label>
-		<input type="text" name="email" placeholder="Email Address">
-		<label for="project_stepstitle">Project Title: <strong class="tip">&#42;</strong>
+		<input type="text" name="email" id="email" placeholder="Email Address">
+		<label for="project_title">Project Title: <strong class="tip">&#42;</strong>
       <?php if ($missing && in_array('project_title', $missing)) { ?>
           <span class="tip">Please enter your project title.</span>
           <?php } ?></label>
-		<input type="text" name="project_title" placeholder="Project Title">
-		<label for "project_steps">Project Steps: <strong class="tip">&#42;</strong>
+		<input type="text" name="project_title" id="project_title" placeholder="Project Title">
+		<label for="project_steps">Project Steps: <strong class="tip">&#42;</strong>
       <?php if ($missing && in_array('project_steps', $missing)) { ?>
           <span class="tip">Please enter the steps to your project.</span>
-          <?php } ?></label>
-		<textarea for="project_steps" placeholder="Please List Project Steps In Order"></textarea><br>
-		<input name="send" type="submit" value="Send Project">
+            <?php } ?></label>
+		<textarea name="project_steps" id="project_steps" placeholder="Please List Project Steps In Order"></textarea><br>
+		<input type="submit" value="send" name='send'>
 	</form>
      </div>
    </div>

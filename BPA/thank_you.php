@@ -21,6 +21,5 @@ require './_includes/header.php';
     </div>
     <?php include './_includes/footer.php'; ?>
     <script src="_js/script.js"></script>
-</div>
 </body>
 </html>

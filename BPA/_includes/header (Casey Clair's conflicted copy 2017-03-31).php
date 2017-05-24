@@ -37,11 +37,11 @@
   <nav>
       <ul class="topnav" id="myTopnav">
         <li><a href="index.php" <?php if ($currentPage == 'index.php') { echo 'id="current"';} ?>>Home</a></li>
-        <li><a href="category.php?cat_id=1"  <?php if ($currentPage == 'category.php?cat_id=1') { echo 'id="current"';} ?>>Hunting</a></li>
+        <li><a href="category.php?cat_id=1" <?php if ($currentPage == 'category.php?cat_id=1') { echo 'id="current"';} ?>>Hunting</a></li>
         <li><a href="category.php?cat_id=2" <?php if ($currentPage == 'category.php?cat_id=2') { echo 'id="current"';} ?>>Fishing</a></li>
         <li><a href="category.php?cat_id=3" <?php if ($currentPage == 'category.php?cat_id=3') { echo 'id="current"';} ?>>Camping</a></li>
         <li><a href="contact.php" <?php if ($currentPage == 'contact.php') { echo 'id="current"';} ?>>Contact</a></li>
-        <li><a href="about_us.php" <?php if ($currentPage == 'about_us.php') { echo 'id="current"';} ?>>About Us</a></li>
+        <li><a href="about_us.php" <?php if ($currentPage == 'about_us.php') { echo 'id="current"';} ?>>About</a></li>
         <li class="icon">
           <button onclick="myFunction()">
             <span class="sr-only">Toggle navigation</span>
